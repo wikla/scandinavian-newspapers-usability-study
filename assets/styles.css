@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.img-container {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img-container.current {
+    height: 9306px;
+    background-image: url("img/current-frontpage one-third.png");
+}
+
+.img-container.fonts {
+    height: 7740px;
+    background-image: url("img/frontpage-fonts.png");
+}
